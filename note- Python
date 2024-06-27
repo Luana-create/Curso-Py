@@ -20,6 +20,20 @@ mes=input('Mês de nascimento:')
 ano=input('Ano de Nascimento:')
 print('Voce nasceu no dia',dia,'de',mes,'de',ano +'!')
 #Desafio 03
-nu1=input('Digite um numero: ')
-nu2=input('Digite um numero: ')
+nu1=int(input('Digite um numero: '))
+nu2=int(input('Digite um numero: '))
 print('A Soma é', (nu1+nu2))
+
+#Tipos primitivos
+int(7, -7, 0, 9875)
+float(4.5, 0.076, -15.223, 7.0)
+bool(True, False)
+str('olá','7,5', '' )
+
+#Outra forma de usar o print
+
+print('A soma vale {}'.format())
+#A chave/máscara vai ser substituída por um método da própria string.
+print('A soma vale {}'.format(s))
+
+
