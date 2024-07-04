@@ -1,5 +1,5 @@
 #Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
-n=int(float(input("Difite um número:")))
+n=int(float(input("Digite um número:")))
 n1=n*2
 n2=n*3
 n3=n**(1/2)
